@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Name = edemail.getText().toString();
                 Password = edpassword.getText().toString();
+                String email = "bimabayusaputra111@gmail.com";
+                String pass = "00000000";
 
                 if (Name.equals("bimabayusaputra111@gmail.com") && Password.equals("00000000")){
                     Toast t = Toast.makeText(getApplicationContext(),
